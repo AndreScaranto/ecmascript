@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curso de EcmaScript 6.0</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.min.js"></script>
+        <script type="text/babel">
+            var jogador = {
+                nome:"Messi",
+                habilidades:["chutar","correr","driblar","fazer gols"],
+                escreverNome: function() {
+                    console.log(this.nome)
+                },
+                escreverHabilidades: function() {
+                    this.habilidades.forEach(function(skill) {
+                        console.log(skill)
+                    });
+                },
+                escreverNomeComHabilidades: function() {
+                    var _this = this;
+                    this.habilidades.forEach(function(skill) {
+                        console.log(_this.nome + " é craque em " + skill);
+                    });
+                }
+            }
+
+            jogador.escreverNome();
+            jogador.escreverHabilidades();
+            jogador.escreverNomeComHabilidades();
+
+        </script>
+    </head>
+    <body>
+    
+    </body>
+</html>
