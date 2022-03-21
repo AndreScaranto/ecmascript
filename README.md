@@ -17,3 +17,5 @@ unidade03: Babel.js - compilando ES6 para ES5.
 unidade04: Hoisting de funções e variáveis. Escopo de variáveis. Uso de template strings. Operador spread - ... para 'espalhar' um array dentro de outro.
 
 unidade05: Parâmetro Default de funções. string.repeat. funções usando arrow =>. Usando o this em objetos. Método bind. Destructuring Assignment para extrair valores de um array e de um objeto para variáveis. Generators protocolo Interator (implementa o método next()).
+
+unidade06: básico de POO - classes e objetos.
